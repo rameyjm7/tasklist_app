@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/22b0b5ff-277b-4fe2-a49e-6c5f905d71fa)
+![image](https://github.com/user-attachments/assets/23f73255-6bf7-4f74-b455-3598004ee40b)
 
 
-A basic task list (totally offline) that reminds me of a list of things on a piece of paprer
+A basic task list (totally offline) that reminds me of a list of things on a piece of paper
