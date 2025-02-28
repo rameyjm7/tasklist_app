@@ -2,3 +2,5 @@
 
 
 A basic task list (totally offline) that reminds me of a list of things on a piece of paper
+
+Double click on text or date to change
