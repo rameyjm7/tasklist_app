@@ -14,3 +14,6 @@ Double click on text or date to change
 - yarn make
 
 This should install dependencies, build the production release of the app, then pacakge it into an EXE setup you can run for redistribution
+
+install the app using the EXE generated under the dist/ folder
+![image](https://github.com/user-attachments/assets/164198cc-4fc2-4211-9a07-da14acfe4d9f)
