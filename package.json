@@ -1,25 +1,45 @@
 {
-  "dependencies": {
-    "@hello-pangea/dnd": "^18.0.1",
-    "@tanstack/react-table": "^8.21.2",
-    "date-fns": "^4.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
-  },
+  "name": "tasklist-app",
+  "version": "1.0.0",
+  "description": "A simple task manager app built with React and Electron.",
+  "author": "Your Name",
+  "main": "public/electron.js",
+  "homepage": "./",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "electron": "electron .",
+    "build": "react-scripts build",
+    "postinstall": "electron-builder install-app-deps",
+    "package": "electron-builder --dir",
+    "make": "electron-builder",
+    "dev": "concurrently \"yarn start\" \"yarn electron\""
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+  "build": {
+    "appId": "com.taskmanager.app",
+    "productName": "Task Manager",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "public/electron.js"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "concurrently": "^7.0.0",
+    "electron-builder": "^25.1.8"
   }
 }
