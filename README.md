@@ -17,3 +17,7 @@ This should install dependencies, build the production release of the app, then 
 
 install the app using the EXE generated under the dist/ folder
 ![image](https://github.com/user-attachments/assets/164198cc-4fc2-4211-9a07-da14acfe4d9f)
+
+also you can install the EXE from here if you'd rather
+
+https://github.com/rameyjm7/tasklist_app/releases/tag/release
